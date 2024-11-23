@@ -12,5 +12,6 @@ export const errorHandler = (
     return;
   }
 
+  console.error(err);
   res.status(500).send({ errors: [{ message: err.message }] });
 };
