@@ -12,6 +12,7 @@ export * from "./middlewares/request-validation";
 
 export * from "./utils/jwt";
 export * from "./utils/password";
+export * from "./utils/password-bcrypt";
 
 export * from "./events/base/listener";
 export * from "./events/base/publisher";
